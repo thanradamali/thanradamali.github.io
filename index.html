@@ -10,6 +10,8 @@
             line-height: 1.6;
             margin: 0;
             padding: 0;
+            background: #f4f4f4;
+            color: #333;
         }
 
         header {
@@ -32,25 +34,58 @@
         nav ul li a {
             color: white;
             text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ffcc00;
         }
 
         section {
+            background: white;
             padding: 20px;
             margin: 10px;
-            border: 1px solid #ccc;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            border-bottom: 2px solid #007BFF;
+            padding-bottom: 10px;
         }
 
         footer {
             text-align: center;
             padding: 10px;
             background: #f1f1f1;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin: 10px 0;
+        }
+
+        a {
+            color: #007BFF;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        a:hover {
+            color: #ffcc00;
         }
     </style>
 </head>
 <body>
     <header>
-        <h1>ธารรฎา มะลิอ่อง</h1>
-        <p>นักศึกษาคณะเทคโนโลยีสารสนเทศ</p>
+        <h1>ชื่อของคุณ</h1>
+        <p>นักเรียนคณะเทคโนโลยีสารสนเทศ</p>
         <nav>
             <ul>
                 <li><a href="#about">เกี่ยวกับฉัน</a></li>
